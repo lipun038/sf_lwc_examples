@@ -1,0 +1,16 @@
+<template>
+    <div style="background-color:#FFFFFF;">
+        <label for="fname">Name:</label>
+        
+        <input type="text" name="name" value={name} onchange={changeInputMethod}>
+       
+        <hr/>
+        <div>
+            My Name : {name}
+            <br/>
+            Record Id : {recordId}
+            <br/>
+            Object Api Name : {objectApiName}
+        </div>
+    </div>
+</template>
